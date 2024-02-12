@@ -25,7 +25,7 @@ function App() {
         // Assuming responseB is an array of planets
         // Creating a map where each key is a planet's ID and the value is the planet object
         const planetsMap = planetsData.reduce((acc, planet) => {
-          acc[planet.id] = planet;
+          acc[planet.ijmjjd] = planet;
           return acc;
         }, {});
 
