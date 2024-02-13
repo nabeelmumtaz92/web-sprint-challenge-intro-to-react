@@ -11,8 +11,8 @@ function Character({ character }) {
   
 
   return (
-    <div className="character-card">
-      <h3 className="character-name" onClick = {togglePlanetInfo}>
+    <div className="character-card" onClick = {togglePlanetInfo}>
+      <h3 className="character-name" >
         {character.name}
         </h3>
       {showPlanetInfo && (
